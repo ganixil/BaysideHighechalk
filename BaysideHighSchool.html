@@ -1,0 +1,206 @@
+<html>
+	<head>
+		<title>Containers</title>
+		<style type="text/css">
+			body{ background-color: #BFBFBF; }
+			.container{
+				background-color: white;
+				width: 65%;
+				margin-left: 17.5%;
+				margin-top: 3%;
+				padding: 5px;
+			}
+			#header{
+				
+			}
+			#quickLinks{
+				
+				background-color: orange;
+				width: 100%;
+				height: 20px;
+				border-bottom: 1px dashed white;
+			}
+			#quickLinks ul li{display: inline;}
+			#quickLinks ul{margin:0;padding: 0;}
+			#quickLinks ul li a{
+				
+				text-decoration: none;
+			}
+			#logo{
+				
+				background-color: orange;
+				width: 100%;
+				height: auto;
+			}
+			#navigation{
+				
+				background-color: #001A66;
+				width: 100%;
+				height: 20px;
+
+			}
+			
+			
+			
+			#login{
+				
+				background-color: #BFBFBF;
+				width: 100%;
+				height: 30px;
+				display: inline-block;
+			}
+			#login form{
+
+				margin-top:3px;
+			}
+
+			#main{
+				margin-top: 5px;
+				overflow: hidden;/*fixing float outside*/
+			}
+			#announcements{
+				
+				background-color: yellow;
+				width: 70%;
+				height: 2000px;
+				float: left;
+			}
+			#socialLinks{
+				
+				background-color: white;
+				width: 30%;
+				height: 250px;
+				float:right;
+				
+			}
+			#events{
+				
+				background-color: orange;
+				width: 30%;
+				height: 750px;
+				float:right;
+				
+			}
+			#link{
+				background-color: orange;
+				width: 30%;
+				height:2000px;
+				float: right;
+
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+		<!-- Header: Quick Links, logo, navigation, login -->
+		<div id="header">
+			<div id="quickLinks">
+				<ul>
+					<li><a href="">>School Home</a></li>
+					<li><a href="">>Login</a></li>
+					<li><a href="">>Help</a></li>
+					<li><a href="">>Search</a></li>
+				</ul>
+			</div>
+			<div id="logo">
+				<img src="http://static3.echalk.net/www/bayside/site/layout/HS495_CONTEMPORARY_02.jpg">
+			</div>
+			<div id="navigation">
+				<ul>
+					<li>
+						<a href="">Directory</a>
+						<ul>
+							<li><a href="">Faculty and Stuff</a></li>
+							<li><a href="">Class pages</a></li>
+							<li><a href="">Group pages</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">About BHS</a>
+						<ul>
+							<li><a href="">Bell Schedule</li>
+							<li><a href="">Calendar</li>
+							<li><a href="">Displine Code</li>
+							<li><a href="">Dress Code</li>
+							<li><a href="">History in Photographs</li>
+							<li><a href="">Zero Tolerance Letter</li>
+						</ul>
+					</li>
+					<li><a href="">Calender</a></li>
+					<li>
+						<a href="">Academics</a>
+						<ul>
+							<li><a href=""></li>
+							<li><a href=""></li>
+							<li><a href=""></li>
+							<li><a href=""></li>
+							<li><a href=""></li>
+							<li><a href=""></li>
+							<li><a href=""></li>
+							<li><a href=""></li>
+							<li><a href=""></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">Students</a>
+						<ul>
+							<li><a href=""></li>
+							<li><a href=""></li>
+							<li><a href=""></li>
+							<li><a href=""></li>
+							<li><a href=""></li>
+							<li><a href=""></li>
+							<li><a href=""></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">Parents</a>
+						<ul>
+							<li><a href=""></li>
+							<li><a href=""></li>
+							<li><a href=""></li>
+							<li><a href=""></li>
+							<li><a href=""></li>
+							<li><a href=""></li>
+						</ul>
+					</li>
+					<li><a href="">Library</a></li>
+					<li><a href="">Guidance</a></li>
+				</ul>
+			</div>
+			<div id="login">
+				
+				<form>
+					<a>&nbspLOGIN&nbsp</a>
+					User name: <input type="text" name="username">
+					Password: <input type="password" name="lastname">
+					<button>Login</button>
+					<a href="">Forget Password?</a>
+					<a>Need Help?</a>
+					<a href="">English</a>
+					<a>|</a>
+					<a href="">Espanol</a>
+				</form>
+			</div>
+		</div>
+		<!-- Main: Announcements, Social Links, Events, Links, Bayside Publication, Weather -->
+		<div id="main">
+			<div id="announcements">
+				<a>Daily Announcements</a>
+			</div>
+			<div id="socialLinks"></div>
+			<div id="events"></div>
+			<div id="links"></div>
+			<div id="publication"></div>
+			<div id="weather"></div>	
+		</div>
+		<!-- Footer: Address, Company Logo, Company Links, Select Language -->
+		<div id="footer">
+			<div id="address"></div>
+			<div id="companyLogo"></div>
+			<div id="companyLinks"></div>
+			<div id="selectLanguage"></div>
+		</div>
+		</div>
+	</body>
+</html>
